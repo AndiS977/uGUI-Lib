@@ -22,6 +22,7 @@ Redistributions of source code must retain the above copyright notice.
 --------------------------------------------------------------------------------
 
 adapted as Arduino library by AndiS
+
 changed content:
 
 - use of dynamic memory allocation or static memory allocation. Switch via #define USE_STATIC_MEMORY in ugui_conf.h
