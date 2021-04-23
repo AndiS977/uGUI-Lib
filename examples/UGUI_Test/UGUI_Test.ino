@@ -1,3 +1,6 @@
+// Example for ILI9341 Touchscreen-TFT
+// uGUI setup for static and dynamic memory allocation
+
 //  #define RA8875_TFT
 
 #include "SPI.h"
