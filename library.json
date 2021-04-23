@@ -1,0 +1,12 @@
+{
+  "name": "UGUI",
+  "keywords": "display, GUI",
+  "description": "µGUI for Arduino",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/sumotoy/RA8875.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "*"
+}
