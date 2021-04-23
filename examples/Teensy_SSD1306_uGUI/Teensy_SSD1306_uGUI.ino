@@ -1,8 +1,13 @@
 /*
- Name:		SSD1306_uGUI.ino
+ Name:		Teensy_SSD1306_uGUI.ino
  Created:	22.04.2021 10:01:56
  Author:	Andi2
 */
+
+// Example for Teensy and SSD1306 Monocrome-OLED
+
+// uGUI setup for dynamic memory allocation
+
 #include <SPI.h>
 //#include <Wire.h>
 //#include <Adafruit_GFX.h>
@@ -19,7 +24,7 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT,
 	&SPI, OLED_DC, OLED_RESET, OLED_CS);
 
-UGUI  gui = UGUI(4, 128, 64);
+UGUI  gui = UGUI(4, 128, 64);		// max 4 windows, screen size 128x64
 
 const char TitleText[] = "Hallo";
 const char Str1[] = "Hello World";
