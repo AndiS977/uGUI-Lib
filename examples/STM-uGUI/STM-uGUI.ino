@@ -1,3 +1,8 @@
+// Example for ST32F411 and ILI9341 Touchscreen-TFT
+// Sensor: DS18B20 Temperatur sensor
+
+// uGUI setup for static and dynamic memory allocation
+
 #include "SPI.h"
 #include <UGUI.h>
 //#include "fonts.h"
